@@ -1,12 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <Title>SistemaTools.Criptografia</Title>
-    <Description>Representa uma biblioteca que provêm recursos de criptografia/descriptografia de dados.</Description>
-	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  </PropertyGroup>
-
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>WZSISTEMAS.Data.Criptografia</Title>
+		<Authors>Leonardo Wizenfard de Oliveira</Authors>
+		<Description>Representa uma biblioteca que provêm recursos de criptografia/descriptografia de dados.</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>True</IncludeSymbols>
+		<Copyright>Leonardo Wizenfard de Oliveira 2023 Todos os Direitos Reservados</Copyright>
+		<PackageProjectUrl></PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/leooliveirawo/WZSISTEMAS.Data.Criptografia</RepositoryUrl>
+		<PackageTags>criptografia</PackageTags>
+		<Version>1.0.0</Version>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 </Project>

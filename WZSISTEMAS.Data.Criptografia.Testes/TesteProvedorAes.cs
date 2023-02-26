@@ -1,5 +1,3 @@
-using WZSISTEMAS.Data.Criptografia;
-
 using System.Text;
 
 using WZSISTEMAS.Data.Criptografia.Exceptions;
