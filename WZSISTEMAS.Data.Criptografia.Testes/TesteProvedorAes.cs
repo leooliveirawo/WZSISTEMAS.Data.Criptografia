@@ -1,4 +1,4 @@
-using SistemaTools.Criptografia;
+using WZSISTEMAS.Data.Criptografia;
 
 using System.Text;
 

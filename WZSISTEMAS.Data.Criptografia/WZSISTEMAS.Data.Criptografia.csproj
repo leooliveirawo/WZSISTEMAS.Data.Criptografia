@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <Title>SistemaTools.Criptografia</Title>
     <Description>Representa uma biblioteca que provêm recursos de criptografia/descriptografia de dados.</Description>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
